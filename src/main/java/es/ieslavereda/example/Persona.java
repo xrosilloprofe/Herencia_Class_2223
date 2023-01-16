@@ -35,4 +35,13 @@ public class Persona {
 
     public void cumplirAnos(){ this.edad++;}
 
+    public void printDNI() {
+        System.out.println("example.Persona - DNI: " + DNI );
+    }
+
+    @Override
+    public String toString(){
+        return "DNI=" + DNI + ", edad = " + edad +  ", nombre = " + nombre + ", apellidos = " + apellidos;
+    }
+
 }
