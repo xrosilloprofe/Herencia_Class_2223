@@ -4,10 +4,6 @@ public abstract class Vehiculo {
 
     private int velocidad;
 
-    public Vehiculo(){
-        velocidad = 0;
-    }
-
     public int getVelocidad() {
         return velocidad;
     }

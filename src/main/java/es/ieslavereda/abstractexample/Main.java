@@ -9,5 +9,8 @@ public class Main {
         b1.bajarVelocidad(1);
         b1.bajarVelocidad(100);
         System.out.println(b1);
+
+        Coche c1 = new Coche("combustión","1111AAA");
+        System.out.println(c1);
     }
 }
