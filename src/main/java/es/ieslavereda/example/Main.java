@@ -22,6 +22,8 @@ public class Main {
         Alumno lia = new Alumno("6A",18,"lia","acosta",Grado.DAM_PRIMERO);
         Alumno santi = new Alumno("7Q",19,"santi","soler",73,Grado.DAM_SEGUNDO);
 
+        lia.cumplirAnos();
+
         System.out.println(lia);
         System.out.println(santi);
 

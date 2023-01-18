@@ -1,6 +1,7 @@
 package es.ieslavereda.example;
 
 public class Persona {
+    protected final static int MAYOREDAD = 18;
     private String DNI;
     private String nombre;
     private String apellidos;
@@ -33,7 +34,7 @@ public class Persona {
         this.edad = edad;
     }
 
-    public void cumplirAnos(){ this.edad++;}
+    public final void cumplirAnos(){ this.edad++;}
 
     public void printDNI() {
         System.out.println("example.Persona - DNI: " + DNI );
