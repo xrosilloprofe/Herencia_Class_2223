@@ -5,15 +5,23 @@ public class Secretario extends Empleado{
     private String despacho;
     private String fax;
 
+    public Secretario(String nombre, String apellidos, String DNI, String direccion, String telefono, double salario, String despacho, String fax) {
+        super(nombre, apellidos, DNI, direccion, telefono, salario);
+        this.despacho = despacho;
+        this.fax = fax;
+    }
+
     @Override
     public void incrementarSalario() {
         salario = (salario * (1+(INCREMENTO/100)));
     }
 
-    public Secretario(String nombre, String apellidos, String DNI, String direccion, String telefono, double salario, String despacho, String fax) {
-        super(nombre, apellidos, DNI, direccion, telefono, salario);
-        this.despacho = despacho;
-        this.fax = fax;
+    @Override
+    public boolean cambiarSupervisor(Empleado nuevoSupervisor) {
+        if (!(nuevoSupervisor instanceof Secretario))
+            return false;
+        supervisor = nuevoSupervisor;
+        return true;
     }
 
     @Override

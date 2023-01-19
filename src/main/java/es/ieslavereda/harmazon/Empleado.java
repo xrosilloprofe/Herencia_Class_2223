@@ -21,8 +21,8 @@ public abstract class Empleado {
     private String direccion;
     private LocalDate antiguedad;
     private String telefono;
-    protected double salario;
-    private Empleado supervisor;
+    protected double salario; //accesible para su package && clases derivadas
+    Empleado supervisor; //default (no se pone nada) y es accesible para su package
 
     public Empleado(String nombre, String apellidos, String DNI, String direccion, String telefono, double salario) {
         this.nombre = nombre;
@@ -47,7 +47,7 @@ public abstract class Empleado {
                 '}';
     }
 
-    public abstract void cambiarSupervisor(Empleado nuevoSupervisor);
+    public abstract boolean cambiarSupervisor(Empleado nuevoSupervisor);
 
     public abstract void incrementarSalario();
 
