@@ -34,8 +34,14 @@ public abstract class Empleado {
         this.antiguedad = LocalDate.now();
     }
 
+    public abstract boolean cambiarSupervisor(Empleado nuevoSupervisor);
+
+    public abstract void incrementarSalario();
+
     @Override
     public String toString() {
+        String datosSupervisor = (supervisor==null) ? "sin supervisor" : supervisor.nombre + " " + supervisor.apellidos;
+
         return "Nombre='" + nombre + '\'' +
                 ", apellidos='" + apellidos + '\'' +
                 ", DNI='" + DNI + '\'' +
@@ -43,12 +49,10 @@ public abstract class Empleado {
                 "\n, antiguedad=" + antiguedad +
                 ", telefono='" + telefono + '\'' +
                 ", salario=" + salario +
-                ", supervisor=" + supervisor +
+                ", supervisor=" + datosSupervisor +
                 '}';
     }
 
-    public abstract boolean cambiarSupervisor(Empleado nuevoSupervisor);
 
-    public abstract void incrementarSalario();
 
 }

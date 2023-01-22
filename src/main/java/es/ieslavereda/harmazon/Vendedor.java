@@ -1,15 +1,13 @@
 package es.ieslavereda.harmazon;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Vendedor extends Empleado{
-    private static final int INCREMENTO=10;
+    private static final double INCREMENTO=10;
     private Coche coche;
     private String movil;
     private String areaVenta;
     private Cliente[] clientes;
-
     private double comision;
 
     public Vendedor(String nombre, String apellidos, String DNI, String direccion, String telefono, double salario, Coche coche, String movil, String areaVenta, Cliente[] clientes, double comision) {
@@ -19,17 +17,6 @@ public class Vendedor extends Empleado{
         this.areaVenta = areaVenta;
         this.clientes = clientes;
         this.comision = comision;
-    }
-
-    @Override
-    public String toString() {
-        return "Vendedor{" +
-                "coche=" + coche +
-                ", movil='" + movil + '\'' +
-                ", areaVenta='" + areaVenta + '\'' +
-                ", clientes=" + Arrays.toString(clientes) +
-                ", comision=" + comision +
-                '}' + "\n" + super.toString();
     }
 
     @Override
@@ -46,8 +33,13 @@ public class Vendedor extends Empleado{
     }
 
     public void anyadirCliente(Cliente cliente){
-        Cliente[] aux = new Cliente[clientes.length+1];
-        System.arraycopy(clientes,0,aux,0,clientes.length);
+        Cliente[] aux;
+        if (clientes==null)
+            aux = new Cliente[1];
+        else {
+            aux = new Cliente[clientes.length+1];
+            System.arraycopy(clientes,0,aux,0,clientes.length);
+        }
         aux[aux.length-1] = cliente;
         clientes = aux;
     }
@@ -57,16 +49,19 @@ public class Vendedor extends Empleado{
         if (pos < 0)
             return false;
         Cliente[] aux = new Cliente[clientes.length-1];
-        System.arraycopy(clientes,0,aux,0,pos-1);
-        System.arraycopy(clientes,pos+1,aux,pos+1,(clientes.length-pos));
+        if (pos >0)
+            System.arraycopy(clientes,0,aux,0,pos);
+        System.arraycopy(clientes,pos+1,aux,pos,(clientes.length-pos)-1);
         clientes = aux;
         return true;
     }
 
     private int buscarCliente(Cliente cliente){
-        for (int i = clientes.length; i >=0 ; i--) {
-            if(clientes[i].equals(cliente))
-                return i;
+        if (clientes!=null) {
+            for (int i = clientes.length-1; i >=0 ; i--) {
+                if(clientes[i].equals(cliente))
+                    return i;
+            }
         }
         return -1;
     }
@@ -75,5 +70,15 @@ public class Vendedor extends Empleado{
         this.coche = car;
     }
 
+    @Override
+    public String toString() {
+        return "-------------------------------------------------------------------------\n" + "Vendedor{" +
+                "coche=" + coche +
+                ", movil='" + movil + '\'' +
+                ", areaVenta='" + areaVenta + '\'' +
+                ", clientes=" + Arrays.toString(clientes) +
+                ", comision=" + comision +
+                '}' + "\n" + super.toString();
+    }
 
 }

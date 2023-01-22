@@ -12,6 +12,22 @@ public class Coche {
         this.modelo = modelo;
     }
 
+    public String getMatricula() {
+        return matricula;
+    }
+    public String getMarca() {
+        return marca;
+    }
+    public String getModelo() {
+        return modelo;
+    }
 
-
+    @Override
+    public String toString() {
+        return "Coche{" +
+                "matricula='" + matricula + '\'' +
+                ", marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                '}';
+    }
 }

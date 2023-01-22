@@ -1,7 +1,7 @@
 package es.ieslavereda.harmazon;
 
 public class Secretario extends Empleado{
-    private static final int INCREMENTO=5;
+    private static final double INCREMENTO=5;
     private String despacho;
     private String fax;
 
@@ -26,7 +26,7 @@ public class Secretario extends Empleado{
 
     @Override
     public String toString() {
-        return "Secretario{" +
+        return "-------------------------------------------------------------------------\n" + "Secretario{" +
                 "despacho='" + despacho + '\'' +
                 ", fax='" + fax + '\'' +
                 '}' + "\n" + super.toString();

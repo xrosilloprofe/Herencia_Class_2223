@@ -19,4 +19,30 @@ public class Cliente {
         this.antiguedad = LocalDate.now();
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+    public String getApellidos() {
+        return apellidos;
+    }
+    public String getDNI() {
+        return DNI;
+    }
+    public String getDireccion() {
+        return direccion;
+    }
+    public LocalDate getAntiguedad() {
+        return antiguedad;
+    }
+    public String getTelefono() {
+        return telefono;
+    }
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "nombre='" + nombre + '\'' +
+                ", apellidos='" + apellidos + '\'' +
+                '}';
+    }
 }

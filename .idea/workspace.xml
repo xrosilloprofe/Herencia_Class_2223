@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a997c6c-fc28-49c4-a43b-4b951237f034" name="Changes" comment="5">
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Coche.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/JefeZona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Vendedor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Coche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Coche.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/JefeZona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/JefeZona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Secretario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Secretario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Vendedor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,13 +32,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="2KEi8nVGt0BvTzQuoTlV8qYwMEE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -130,11 +123,33 @@
     <option name="localTasksCounter" value="10" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
     <MESSAGE value="1" />
     <MESSAGE value="4" />
     <MESSAGE value="5" />
     <option name="LAST_COMMIT_MESSAGE" value="5" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Main.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
