@@ -20,6 +20,8 @@ public class Main {
         humus.anyadirTipoProductoaCodigoBarras();
         imprimir(humus);
 
+
+
     }
 
     public static void imprimir(Producto p){

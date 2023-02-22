@@ -1,0 +1,57 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"8a997c6c-fc28-49c4-a43b-4b951237f034\" name=\"Changes\" comment=\"5\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Cliente.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Cliente.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Coche.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Coche.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Empleado.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Empleado.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/JefeZona.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/JefeZona.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Main.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Secretario.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Secretario.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Vendedor.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Vendedor.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Enum\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2KEi8nVGt0BvTzQuoTlV8qYwMEE\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"8a997c6c-fc28-49c4-a43b-4b951237f034\" name=\"Changes\" comment=\"\" />\n      <created>1673545987428</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1673545987428</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"initial\">\n      <created>1673892204707</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1673892204707</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"1\">\n      <created>1673897001447</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1673897001447</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"1\">\n      <created>1673981292449</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1673981292449</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"1\">\n      <created>1673986478480</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1673986478480</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"1\">\n      <created>1674067434066</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1674067434066</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"1\">\n      <created>1674071431040</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1674071431040</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"1\">\n      <created>1674073038748</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1674073038748</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"4\">\n      <created>1674153230640</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1674153230640</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"5\">\n      <created>1674155842361</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1674155842361</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"10\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"initial\" />\n    <MESSAGE value=\"1\" />\n    <MESSAGE value=\"4\" />\n    <MESSAGE value=\"5\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"5\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Main.java</url>\n          <line>66</line>\n          <option name=\"timeStamp\" value=\"4\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 7f2874d1be48a3105e6cbc9a63c445f124b6c51e)
++++ b/.idea/workspace.xml	(date 1674496302848)
+@@ -6,13 +6,6 @@
+   <component name="ChangeListManager">
+     <list default="true" id="8a997c6c-fc28-49c4-a43b-4b951237f034" name="Changes" comment="5">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Cliente.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Coche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Coche.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Empleado.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/JefeZona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/JefeZona.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Main.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Secretario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Secretario.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Vendedor.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -120,7 +113,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1674155842361</updated>
+     </task>
+-    <option name="localTasksCounter" value="10" />
++    <task id="LOCAL-00010" summary="5">
++      <created>1674159327881</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1674159327881</updated>
++    </task>
++    <option name="localTasksCounter" value="11" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -141,15 +141,4 @@
+     <MESSAGE value="5" />
+     <option name="LAST_COMMIT_MESSAGE" value="5" />
+   </component>
+-  <component name="XDebuggerManager">
+-    <breakpoint-manager>
+-      <breakpoints>
+-        <line-breakpoint enabled="true" type="java-line">
+-          <url>file://$PROJECT_DIR$/src/main/java/es/ieslavereda/harmazon/Main.java</url>
+-          <line>66</line>
+-          <option name="timeStamp" value="4" />
+-        </line-breakpoint>
+-      </breakpoints>
+-    </breakpoint-manager>
+-  </component>
+ </project>
+\ No newline at end of file
