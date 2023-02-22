@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a997c6c-fc28-49c4-a43b-4b951237f034" name="Changes" comment="version 0.9">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8a997c6c-fc28-49c4-a43b-4b951237f034" name="Changes" comment="version 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/previoexamen/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslavereda/previoexamen/Palmera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/previoexamen/Palmera.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
       </list>
@@ -120,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674412948289</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="version 1">
+      <created>1677090239951</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677090239951</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +149,7 @@
     <MESSAGE value="4" />
     <MESSAGE value="5" />
     <MESSAGE value="version 0.9" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 0.9" />
+    <MESSAGE value="version 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1" />
   </component>
 </project>

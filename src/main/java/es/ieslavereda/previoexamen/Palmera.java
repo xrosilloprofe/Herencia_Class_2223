@@ -30,4 +30,9 @@ public class Palmera extends Arbol{
         this.setVivo(false);
     }
 
+    @Override
+    public void respirar(){
+        System.out.println("Respiro como palmera");
+    }
+
 }
